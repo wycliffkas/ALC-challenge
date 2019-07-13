@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ALC-Challenge</string>
+    <string name="welcome_string">Welcome to ALC 4.0</string>
 </resources>
