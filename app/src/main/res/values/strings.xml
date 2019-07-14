@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">ALC-Challenge</string>
     <string name="welcome_string">Welcome to ALC 4.0</string>
+    <string name="track">Track: Android</string>
+    <string name="country">Country: Uganda</string>
+    <string name="phone_number">Phone number: 256755754728</string>
+    <string name="email">Email: w4wycliff@gmail.com</string>
+    <string name="slack_username">Slack Username: @wycliffkas</string>
+    <string name="name">Wycliff Kasirye</string>
+    <string name="about_ALC">About ALC</string>
+    <string name="my_profile">My Profile</string>
+
 </resources>
