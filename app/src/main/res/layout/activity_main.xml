@@ -11,10 +11,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="104dp"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/handlee"
         android:text="@string/welcome_string"
         android:textColor="@android:color/black"
-        android:textSize="24sp"
+        android:textSize="@dimen/very_big_font"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -24,32 +24,34 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/aboutAlc"
+        android:id="@+id/buttonAboutAlc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="112dp"
         android:backgroundTint="#FFC107"
         android:text="About ALC"
-        android:textSize="24sp"
+        android:textSize="@dimen/big_font"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="32dp"
         android:layout_marginBottom="8dp"
         android:backgroundTint="#FFC107"
         android:text="MY PROFILE"
-        android:textSize="24sp"
+        android:textSize="@dimen/big_font"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/aboutAlc"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAboutAlc"
         app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
