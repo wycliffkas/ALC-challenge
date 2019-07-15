@@ -2,9 +2,9 @@
 
 This challenge is a simple Android Application with three Activities, the first Activity is the main Activity with two Buttons.
 
-Button 1 takes you to Activity B when clicked.
+- Button 1 takes you to Activity B when clicked.
 
-Button 2 takes you to Activity C when clicked.
+- Button 2 takes you to Activity C when clicked.
 
 Activity B is the About ALC page, it contains only a Webview that loads the URL https://andela.com/alc/ which is the ALC about page.
 
@@ -30,7 +30,7 @@ You need the following :
 
    git clone https://github.com/wycliffkas/ALC-challenge.git
 
-- Change directory into "wikipedia", by running the command below.
+- Change directory into "ALC-challenge", by running the command below.
 
    cd ALC-challenge
 
