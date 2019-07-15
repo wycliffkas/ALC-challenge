@@ -18,15 +18,7 @@ TextViews showing your name, Track, Country, Email and Phone Number.
 <img src="https://github.com/wycliffkas/ALC-challenge/blob/master/Screenshot3.png" width="250" height="400" />
 </p>
 
-### Application Features.
-- List articles
-- Search articles
-- View article details
-- Add articles to favorite
-- View history
-- Clear history
-
-### Prerequisites.
+### Prerequisites
 
 You need the following :
 - Android studio.
